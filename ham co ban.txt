@@ -1,0 +1,49 @@
+if(dk){
+  code thực thi 1 lần nếu đk đúng
+}else{
+  code thực thi nếu đk sai
+}
+
+=================================================
+
+if( dk1 ){
+  code neu dk1 dung
+}else if(dk2){
+  code nếu dk2 dung và dk1 sai
+}else{
+  code thực thi khi dk1 và dk2 sai
+}
+
+========================================================
+
+while (dk){               
+  code thực thi đến khi đk sai thì dừng
+}
+
+do {                        thực thi code trước 1 lần rồi mới xét đk
+  code thuc thi             đảm bảo code thực thi luôn chạy ít nhất 1 lần
+} while ( dk )
+
+lưu ý   vòng lặp sẽ thực thi đến khi nào đk sai thì dừng
+        vòng lặp cần 3 yếu tố
+        xuất phát điểm  : điểm bắt đầu vòng lặp
+        đích đến:         điểm kết thúc vòng lặp
+        tốc độ chạy:      bước nhảy giữa các vòng lặp    
+
+===================================================
+
+for ( start; stop; speed ){
+  code thực thi
+}
+
+for ( var key in tenObject ){
+  // code thuc thi          tenObject[key] chinh la tưng giá trị trong object
+}
+
+for ( var value of array){
+  // code thuc thi          value chinh la tưng phan tu trong array
+}
+
+break               phá vỡ, kết thúc vòng lặp
+
+continue            tiếp tục vòng lặp tiếp theo, bỏ qua vòng lặp hiện tại

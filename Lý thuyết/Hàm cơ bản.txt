@@ -1,0 +1,48 @@
+
+==== Hàm điều kiện ====
+
+if(điều kiện){
+    
+
+
+}
+
+===========================================
+======Vòng lặp (do While) ====
+
+
+While(dk) {
+    code thực thi đến khi nào điều kiện sai thì dừng 
+}
+
+
+
+do {                          thực thi code trước 1 lần rồi mới xét điều kiện
+    code thực thi             đản bải cide thực thi luôn chạy ít nhất 1 lần
+}While(đk)
+
+
+
+* Lưu ý:  vòng lặp sẽ thực thi đến khi nào điều kiện sai mới dừng
+            vòng lặp cần 3 yếu tó :
+            xuất phát điểm : điểm bắt đầu vòng lặp 
+            đích đến :  điểm kết thúc vòng lặp
+
+
+
+=============================================
+======Vòng lặp for ====
+for (start; stop; speed ){
+    code thực thi
+}
+break để phá vỡ vòng lặp
+bỏ qua vòng lặp (Dùng continue "tiếp tục vòng lặp tiếp theo, bỏ qua vòng lặp hiện tại ")
+=====================================
+    từ khoá tìm hiểu thêm 
+
+
+
+
+
+
+
